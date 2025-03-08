@@ -1,0 +1,31 @@
+{
+    "foxguard": {
+        "enabled": true,
+        "apiKey": "YOUR_API_KEY_HERE",
+        "apiEndpoint": "https://api.foxguard.com/v1/verify",
+        "debug": false,
+        "checkInterval": 60000,
+        "globalBanEnabled": true,
+        "banDatabasePanel": "https://panel.foxguard.com",
+        "bannedSoftware": [
+            "RedEngine",
+            "Cheat Engine", 
+            "CheatEngine", 
+            "CE", 
+            "EulenCheats", 
+            "Eulen", 
+            "HamMafia", 
+            "DesudoV", 
+            "Lumia", 
+            "LumiaENG", 
+            "RedENGINE", 
+            "Injection", 
+            "Injector", 
+            "Mod Menu"
+        ]
+    },
+    "server": {
+        "name": "My FoxCore Server",
+        "description": "A server protected by FoxGuard"
+    }
+}
